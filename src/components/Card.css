@@ -1,0 +1,36 @@
+.card {
+  padding: 10px;
+  background-color: gold;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.338);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.topCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.question {
+  text-align: left;
+  display: flex;
+  user-select: none;
+}
+
+.icon {
+  display: flex;
+  cursor: pointer;
+}
+
+.content {
+  display: block;
+  text-align: left;
+  user-select: none;
+}
+
+.noContent {
+  display: none;
+}
